@@ -4,21 +4,21 @@ cask "exitctl" do
 
   on_macos do
     on_arm do
-      sha256 "4bf97b712802d3ea264b8cfa168d1672104e43f081f35b07ecc3ae735c33650a"
+      sha256 "959f97f75b7d196b6d0492631a367c3117aea20c1242e285fcbacb4000cc42c8"
       url "https://github.com/cloudowski/exitctl/releases/download/v#{version}/exitctl_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "60e95dc8d61802f4320234fce6ca2d62d14905b4ce8e8798d950b809a104a8c8"
+      sha256 "f90c50f083fde3202d73703b6097179aeae2802e5ee5d832bc4c0d074325c5b3"
       url "https://github.com/cloudowski/exitctl/releases/download/v#{version}/exitctl_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "733f3b411ad5843a643ecf129bb7470188c8c1f72fc7fbe8ea993a80342d93de"
+      sha256 "cafcfbffc2bb806150da157df7c85c0b6a4ddc20439c76ba865faf2704b46049"
       url "https://github.com/cloudowski/exitctl/releases/download/v#{version}/exitctl_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "676cbbf0e8af689dfcf4f06e19891a8bed673765b4cbd7dc87db46d6ff203e65"
+      sha256 "f3b650e64367d178f8792e8f0dfefa7c06fe03dcd31cbd538220b8bf4271609d"
       url "https://github.com/cloudowski/exitctl/releases/download/v#{version}/exitctl_linux_amd64.tar.gz"
     end
   end
