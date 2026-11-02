@@ -1,9 +1,9 @@
 # homebrew-tap
 
-Homebrew tap for [exitctl](https://github.com/cloudowski/exitctl).
+Homebrew tap for [lockinaudit](https://github.com/cloudowski/lockinaudit).
 
 ```
-brew install cloudowski/tap/exitctl
+brew install cloudowski/tap/lockinaudit
 ```
 
-The cask in `Casks/` is generated and updated by GoReleaser on every exitctl release. Do not edit it by hand.
+The cask in `Casks/` is generated and updated by GoReleaser on every lockinaudit release. Do not edit it by hand.
